@@ -1,5 +1,7 @@
 # Rocknix-RGARC-RK3566-Yabadabadoo-Compatibility-List
-A compatibility list for the Sega Saturn libretro core Yabadabadoo (a fork of Yabuse) as tested on an Anbernic RG Arc D (RK3566) handheld.
+A compatibility list for the Sega Saturn libretro core **Yabadabadoo** (a fork of Yabuse) as tested on an **Anbernic RG Arc D (RK3566)** handheld.
+
+**Disclaimer:** Most of these games have only been tested briefly. If you encounter any problems that haven't been mentioned then report an issue and I'll update the list. I'd be particularly grateful if anyone can report full playthroughs of longer games.
 
 <!-- COMPATIBILITY_TABLE_START -->
 
