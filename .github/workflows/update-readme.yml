@@ -1,0 +1,41 @@
+name: Update compatibility table
+
+on:
+  push:
+    paths:
+      - "RGARC_Rocknix_Yabadabadoo_Saturn_Compatibility.ods"
+      - "convert.py"
+      - "requirements.txt"
+      - ".github/workflows/update-readme.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+
+      - name: Generate README table
+        run: python convert.py
+
+      - name: Commit updated README
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          if ! git diff --cached --quiet; then
+            git commit -m "Update Saturn compatibility table"
+            git push
+          fi
