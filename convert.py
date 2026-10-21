@@ -46,20 +46,20 @@ def main():
     ]
 
     for _, row in df.iterrows():
-    cells = []
+        cells = []
 
-    for column, value in row.items():
-        if column.strip().lower() == "playable":
-            status = str(value).strip().lower()
+        for column, value in row.items():
+            if column.strip().lower() == "playable":
+                status = str(value).strip().lower()
 
-            if status == "yes":
-                value = "✅"
-            elif status == "no":
-                value = "❌"
+                if status == "yes":
+                    value = "✅"
+                elif status == "no":
+                    value = "❌"
 
-        cells.append(markdown_cell(value))
+            cells.append(markdown_cell(value))
 
-    lines.append("| " + " | ".join(cells) + " |")
+        lines.append("| " + " | ".join(cells) + " |")
 
     table = "\n".join(lines)
     readme_text = README.read_text(encoding="utf-8")
