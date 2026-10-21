@@ -3,7 +3,7 @@ name: Update compatibility table
 on:
   push:
     paths:
-      - "RGARC_Rocknix_Yabadabadoo_Saturn_Compatibility.ods"
+      - "Rocknix_RGARC_RK3566_Yabadabadoo_Saturn_Compatibility.ods"
       - "convert.py"
       - "requirements.txt"
       - ".github/workflows/update-readme.yml"
