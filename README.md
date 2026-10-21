@@ -15,7 +15,7 @@ Most of these games have only been tested briefly. If you encounter any problems
 | Game Name | Region | Playable | Glitches/Notes |
 | --- | --- | --- | --- |
 | Astal | NTSC | ❌ | Black screen freeze. |
-| Albert Odyssey | NTSC | ✅ | A flicker of glitched tiles appear when text boxes close. When you enter menu it fades in twice instead of once. |
+| Albert Odyssey | NTSC | ❌ | A flicker of glitched tiles appear when text boxes close. When you enter menu it fades in twice instead of once. |
 | Alien Trilogy | NTSC | ✅ | Mission brief text displays incorrectly. The first letter of each word flickers and then turns invisible when loading has completed. |
 | Alone in the Dark One Eyed Jack’s Revenge | NTSC | ❌ | Intro doesn’t animate, only a couple of frames are shown. You can pause and enter inventory which works but in-game you just see that frozen frame from the intro while music plays. |
 | Amok | NTSC-J | ✅ |  |
@@ -35,6 +35,7 @@ Most of these games have only been tested briefly. If you encounter any problems
 | Clockwork Knight | NTSC | ✅ |  |
 | Clockwork Knight 2 | PAL | ✅ | Main menu displays incorrectly. Menu items that should be obscured by the logo display in front of it and vice versa. |
 | Contra Legacy of War | NTSC | ❌ | Player character warps around the gameplay area randomly. |
+| Cyberbots: Fullmetal Madness | NTSC-J | ❌ | Black screen freeze. |
 | D&D Collection | NTSC-J | ❌ | Sprite corruption glitch similar to Rockman X3 (also Capcom) |
 | Darius Gaiden | NTSC | ❌ | No sound effects. |
 | Darius II | NTSC-J | ❌ | No sound effects. |
@@ -44,7 +45,7 @@ Most of these games have only been tested briefly. If you encounter any problems
 | DoDonPachi | NTSC-J | ❌ | Movement, background graphics, enemies all broken. |
 | DonPachi | NTSC-J | ❌ | Crashes before gameplay begins. |
 | Earthworm Jim 2 | NTSC | ✅ |  |
-| Elevator Action Returns | NTSC-J | ✅ | Minor glitch with the fade in/out effect during the opening Taito logo and when each mission title is displayed. |
+| Elevator Action Returns | NTSC-J | ✅ | Minor glitch with the fade-in effect during the opening Ving logo and when each mission title is displayed. |
 | Exhumed | PAL | ✅ | Loading screen top 3rd of screen glitchy. |
 | Fighters Megamix | PAL | ❌ | Works unlike NTSC (black screen freeze) but poor performance. |
 | Fighting Vipers | PAL | ❌ | Works unlike NTSC (black screen freeze) but poor performance. |
@@ -101,7 +102,7 @@ Most of these games have only been tested briefly. If you encounter any problems
 | Sonic R | NTSC | ✅ | Use Vulkan and enable threaded video for full-speed. |
 | Sonic Wings Special | NTSC-J | ❌ | Slow-motion gameplay (not fps drop). |
 | Soukyuu Gurentai (Terra Driver) | NTSC-J | ✅ |  |
-| Street Fighter Zero 3 | NTSC-J | ✅ |  |
+| Street Fighter Zero 3 | NTSC-J | ✅ | Sometimes the intro has no sound. |
 | Street Fighter: The Movie | NTSC | ✅ |  |
 | Super Puzzle Fighter 2 Turbo | NTSC | ✅ |  |
 | Super Tempo | NTSC-J | ❌ | Black screen freeze. |
