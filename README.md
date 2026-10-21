@@ -1,7 +1,14 @@
-# Rocknix-RGARC-RK3566-Yabadabadoo-Compatibility-List
-A compatibility list for the Sega Saturn libretro core **Yabadabadoo** (a fork of Yabuse) as tested on an **Anbernic RG Arc D (RK3566)** handheld.
+# Rocknix RG ARC RK3566 Yabadabadoo Compatibility List
+A compatibility list for the Sega Saturn libretro core **Yabadabadoo** (a fork of Yabuse) as tested on an **Anbernic RG Arc D**. 
 
-**Disclaimer:** Most of these games have only been tested briefly. If you encounter any problems that haven't been mentioned then report an issue and I'll update the list. I'd be particularly grateful if anyone can report full playthroughs of longer games.
+Most of these games have only been tested briefly. If you encounter any problems that haven't been mentioned then report an issue and I'll update the list. I'd be particularly grateful if anyone can report full playthroughs of longer games.
+
+**Settings:** 
+- LVL3 undervolt was enabled along with overclocking in Rocknix system settings.
+- Disable V-Sync, you don't get any tearing without it.
+- I use the GL video driver with Threaded Video disabled for input latency reasons.
+- Threaded video crashes RetroArch under GL with this core so when I needed extra performance I switched to Vulkan to enable it.
+- Max Swapchain Images was set to 2 to reduce input latency. You can increase it if you're getting the occasional stutter.
 
 <!-- COMPATIBILITY_TABLE_START -->
 
