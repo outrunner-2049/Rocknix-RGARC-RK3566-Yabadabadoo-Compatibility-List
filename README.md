@@ -81,7 +81,7 @@ Most of these games have only been tested briefly. If you encounter any problems
 | Ninpen Manmaru | NTSC-J | ❌ | Every screen transition takes an eternity. You’ll think the game has frozen but it will eventually load and gameplay seems fine. |
 | Pandemonium | NTSC | ❌ | Slow-motion gameplay (not fps drop). |
 | Panzer Dragoon | NTSC | ✅ | Use Vulkan and enable threaded video for full-speed. |
-| Panzer Dragoon Zwei | NTSC | ❌ | Occasionally the ground texture briefly glitches and a grid of brightly coloured squares appear briefly at the start of missions. |
+| Panzer Dragoon Zwei | NTSC | ✅ | Brightly coloured squares appear on screen for 1-2 frames when the black screen with the mission title appears. Use Vulkan and enable threaded video for full-speed. |
 | Pocket Fighter | NTSC-J | ✅ |  |
 | Policenauts | NTSC-J | ✅ | [T-En by JunkerHQ v1.0.1] |
 | Princess Kurara | NTSC-J | ✅ |  |
@@ -93,7 +93,7 @@ Most of these games have only been tested briefly. If you encounter any problems
 | Rockman X3 | NTSC-J | ❌ | Sprite corruption glitch similar to D&D Collection (also Capcom) |
 | Saturn Bomberman | NTSC | ✅ |  |
 | Sega Ages – Galaxy Force II | NTSC | ✅ | Use Vulkan and enable threaded video for full-speed. |
-| Sega Rally Championship | NTSC | ✅ |  |
+| Sega Rally Championship | NTSC | ✅ | Sometimes the name entry screen has slowdown. You can avoid this by using Vulkan and threaded video or frameskip. |
 | Shinobi Legions | NTSC | ✅ |  |
 | Shinrei Jusatsushi Taroumaru | NTSC-J | ✅ |  |
 | Sonic 3D Blast | NTSC | ✅ | No video during opening FMV |
