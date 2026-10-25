@@ -3,12 +3,15 @@ A compatibility list for the Sega Saturn libretro core **Yabadabadoo** (a fork o
 
 Most of these games have only been tested briefly. If you encounter any problems that haven't been mentioned then report an issue and I'll update the list. I'd be particularly grateful if anyone can report full playthroughs of longer games.
 
-**Settings:** 
-- LVL3 undervolt was enabled along with overclocking in Rocknix system settings.
-- Disable V-Sync, you don't get any tearing without it.
-- I use the GL video driver with Threaded Video disabled for input latency reasons.
-- Threaded video crashes RetroArch under GL with this core so when I needed extra performance I switched to Vulkan to enable it.
-- Max Swapchain Images was set to 2 to reduce input latency. You can increase it if you're getting the occasional stutter.
+**My Settings:** 
+- (Rocknix) Enable LVL3 Undervolt (or the highest stable option for your handheld)
+- (Rocknix) Enable CPU Overclock
+- Set Video Driver to Vulkan
+- Enable Threaded Video
+- Disable V-Sync
+- Set Max Swapchain Images to 2
+- Set Audio Latency to 32ms
+- Turn off Frameskip
 
 <!-- COMPATIBILITY_TABLE_START -->
 
