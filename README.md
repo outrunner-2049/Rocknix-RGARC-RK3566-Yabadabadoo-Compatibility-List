@@ -19,6 +19,7 @@ Most of these games have only been tested briefly. If you encounter any problems
 | Alien Trilogy | NTSC | ✅ | Mission brief text displays incorrectly. The first letter of each word flickers and then turns invisible when loading has completed. |
 | Alone in the Dark One Eyed Jack’s Revenge | NTSC | ❌ | Intro doesn’t animate, only a couple of frames are shown. You can pause and enter inventory which works but in-game you just see that frozen frame from the intro while music plays. |
 | Amok | NTSC-J | ✅ |  |
+| Assault Suit Leynos 2 | NTSC-J | ❌ | Black screen freeze. |
 | Astra Superstars | NTSC-J | ❌ | Background graphics are badly glitched. |
 | Batman Forever the Arcade Game | NTSC-J | ❌ | Slow-motion gameplay (not fps drop). |
 | Batsugun | NTSC-J | ❌ | Inputs are massively delayed and/or dropped completely. |
@@ -31,14 +32,14 @@ Most of these games have only been tested briefly. If you encounter any problems
 | Bulk Slash | NTSC-J | ✅ |  |
 | Burning Rangers | NTSC | ❌ | Poor performance and audio is sometimes too quiet. |
 | Bust-a-Move 3 | NTSC | ✅ |  |
-| Chou Aniki | NTSC-J | ❌ | No sound effects. |
+| Chou Aniki | NTSC-J | ✅ |  |
 | Clockwork Knight | NTSC | ✅ |  |
-| Clockwork Knight 2 | PAL | ✅ | Main menu displays incorrectly. Menu items that should be obscured by the logo display in front of it and vice versa. |
+| Clockwork Knight 2 | NTSC | ❌ | In-game is fine but the main menu is completely broken visually. |
 | Contra Legacy of War | NTSC | ❌ | Player character warps around the gameplay area randomly. |
 | Cyberbots: Fullmetal Madness | NTSC-J | ❌ | Black screen freeze. |
 | D&D Collection | NTSC-J | ❌ | Sprite corruption glitch similar to Rockman X3 (also Capcom) |
-| Darius Gaiden | NTSC | ❌ | No sound effects. |
-| Darius II | NTSC-J | ❌ | No sound effects. |
+| Darius Gaiden | NTSC | ✅ |  |
+| Darius II | NTSC-J | ✅ |  |
 | Dark Savior | NTSC | ❌ | Sound doesn’t work on start menu until you exit the sound test. Crashes RA when selecting new game. |
 | Daytona USA C.C.E Netlink | NTSC | ✅ |  |
 | Die Hard Arcade | NTSC | ❌ | Set frameskip to an interval of 1 to fix performance and bad glitches. Some sound issues still remain such as missing music/quiet sound effects. |
@@ -52,13 +53,13 @@ Most of these games have only been tested briefly. If you encounter any problems
 | Final Fight Revenge | NTSC-J | ✅ |  |
 | Galactic Attack | NTSC | ✅ |  |
 | Galaxy Fight | NTSC-J | ❌ | No sound. Selecting an option from the main menu reboots to Sega licensing screen and then the bios music player. |
-| Gex | NTSC | ❌ | Ground/wall tiles constantly flicker between correct and glitched when the game is scrolling. |
+| Gex | NTSC | ❌ | Scrolling bug causes the floor and walls to flicker out of position constantly. |
 | Golden Axe: The Duel | NTSC | ✅ |  |
-| Guardian Force | NTSC | ❌ | Explosion sound effects are much too loud. |
+| Guardian Force | NTSC | ❌ | Explosion sound effects are much too loud compared to music. |
 | Guardian Heroes | NTSC | ✅ |  |
 | Gunbird | NTSC-J | ❌ | Movement, background graphics, enemies all broken. |
 | Herc’s Adventures | NTSC | ❌ | Boots straight to bios music player. |
-| House of the Dead, The | NTSC | ✅ | Use Vulkan and enable threaded video for full-speed. |
+| House of the Dead, The | NTSC | ✅ | Use Vulkan and enable threaded video for full-speed. The main menu and high score screens have very unresponsive controls but the game itself is fine. |
 | In the Hunt | PAL | ❌ | Black screen freeze before first FMV. NTSC-J version plays the FMV then black screen freeze. |
 | Keio Flying Squadron 2 | PAL | ✅ |  |
 | King of Fighters 97, The | NTSC | ✅ |  |
@@ -70,9 +71,10 @@ Most of these games have only been tested briefly. If you encounter any problems
 | Magical Night Dreams: Cotton 2 | NTSC-J | ✅ |  |
 | Magical Night Dreams: Cotton Boomerang | NTSC-J | ✅ | Main menu runs in high-res mode so use auto frameskip to avoid stuttering music. In-game is full-speed without frameskip. |
 | Manx TT SuperBike | NTSC | ❌ | Full-speed in 3rd person but camera “skips” upwards frequently. 1st person needs Vulkan/Threaded Video/Frameskip for full-speed. |
-| Marvel Super Heroes | NTSC | ✅ |  |
+| Marvel Super Heroes | NTSC | ❌ | Game freezes/crashes towards the end of an arcade playthrough. |
 | Megaman 8 | NTSC | ✅ |  |
 | Megaman X4 | NTSC | ✅ |  |
+| Metal Slug | NTSC-J | ❌ | Gun fire sound effects continue long after firing stops. |
 | Mortal Kombat Trilogy | NTSC | ❌ | Opening crawl text is glitched and then it transitions to a black screen while music plays. |
 | Need for Speed | NTSC | ❌ | Loading screen’s colours are wrong. Steering wheel invisible. Skybox glitched. |
 | Nekketsu Oyako | NTSC-J | ❌ | Black screen freeze. |
@@ -84,11 +86,14 @@ Most of these games have only been tested briefly. If you encounter any problems
 | Panzer Dragoon Zwei | NTSC | ✅ | Brightly coloured squares appear on screen for 1-2 frames when the black screen with the mission title appears. Use Vulkan and enable threaded video for full-speed. |
 | Pocket Fighter | NTSC-J | ✅ |  |
 | Policenauts | NTSC-J | ✅ | [T-En by JunkerHQ v1.0.1] |
+| Primal Rage | NTSC | ❌ | Black screen freeze in RA. SA works but the sprites are completely corrupted. |
 | Princess Kurara | NTSC-J | ✅ |  |
 | Quake | NTSC | ✅ | Loading screen top 3rd of screen glitchy. |
 | Radiant Silvergun | NTSC-J | ✅ |  |
+| Rabbit | NTSC-J | ❌ | Set VDP1 Draw Timing to ‘Every Frame’ or it will run at 30fps instead of 60fps. Some stages have graphical glitches affecting the ground that aren’t too noticeable but one stage has a large background layer missing which occasionally flickers into view. |
+| Rampage World Tour | NTSC | ❌ | Black screen freeze. |
 | Rayman | NTSC | ❌ | Background graphics glitches. Part of the shattering image effect before 1st mission is missing. |
-| Real Bout Garou Densetsu | NTSC-J | ❌ | Colours and transparency of sprites are completely wrong. |
+| Real Bout Garou Densetsu | NTSC-J | ❌ | Colours and transparency of sprites are completely wrong and announcer’s voice broken. |
 | Road Rash | NTSC | ❌ | Road markings are glitched. |
 | Rockman X3 | NTSC-J | ❌ | Sprite corruption glitch similar to D&D Collection (also Capcom) |
 | Saturn Bomberman | NTSC | ✅ |  |
@@ -96,25 +101,28 @@ Most of these games have only been tested briefly. If you encounter any problems
 | Sega Rally Championship | NTSC | ✅ | Sometimes the name entry screen has slowdown. You can avoid this by using Vulkan and threaded video or frameskip. |
 | Shinobi Legions | NTSC | ✅ |  |
 | Shinrei Jusatsushi Taroumaru | NTSC-J | ✅ |  |
-| Sonic 3D Blast | NTSC | ✅ | No video during opening FMV |
+| Sonic 3D Blast | NTSC | ✅ |  |
 | Sonic Jam – Original Games | NTSC | ❌ | Menu is squished into top half of screen. Games run in slow motion with full-speed music. |
 | Sonic Jam – Sonic World | NTSC | ✅ | Use Vulkan and enable threaded video for full-speed. |
 | Sonic R | NTSC | ✅ | Use Vulkan and enable threaded video for full-speed. |
 | Sonic Wings Special | NTSC-J | ❌ | Slow-motion gameplay (not fps drop). |
 | Soukyuu Gurentai (Terra Driver) | NTSC-J | ✅ |  |
-| Street Fighter Zero 3 | NTSC-J | ✅ | Sometimes the intro has no sound. |
+| Spot Goes to Hollywood | NTSC | ✅ |  |
+| Street Fighter Zero 3 | NTSC-J | ✅ |  |
 | Street Fighter: The Movie | NTSC | ✅ |  |
 | Super Puzzle Fighter 2 Turbo | NTSC | ✅ |  |
 | Super Tempo | NTSC-J | ❌ | Black screen freeze. |
 | Swagman | PAL | ❌ | Black screen freeze at 50hz. In-game graphics are completely broken at 60hz. |
-| Thunder Force V | NTSC-J | ✅ | Use Vulkan and enable threaded video for full-speed. |
+| Thunder Force V | NTSC-J | ✅ | Use Vulkan and enable threaded video for full-speed. I also pushed audio latency to 64ms and  |
+| Tomb Raider | NTSC | ❌ | 3D models and environment completely broken with invisible polygon faces and distortion. |
 | Twinkle Star Sprites | NTSC-J | ✅ |  |
 | Vampire Savior | NTSC-J | ❌ | Black screen freeze. |
-| Virtua Cop | NTSC | ✅ | Sound effects are too quiet and can barely be heard over music. |
-| Virtua Cop 2 | NTSC | ✅ | Sound effects are too quiet and can barely be heard over music. |
+| Virtua Cop | NTSC | ✅ | Sound effects are a little quiet. |
+| Virtua Cop 2 | NTSC | ✅ | Sound effects are a little quiet. |
 | Virtua Fighter | NTSC | ❌ | Slow sometimes even with Vulkan/threaded video/frameskip. Fighters sometimes get knocked back really far, really fast resulting in ring out. |
 | Virtua Fighter 2 | NTSC | ❌ | Announcer voice broken. Use Vulkan and enable threaded video and frameskip for full-speed. Frameskip breaks menus. |
 | Virtua Fighter Remix  | NTSC | ❌ | Slow sometimes even with Vulkan/threaded video/frameskip. |
+| Waku Waku 7 | NTSC-J | ❌ | Black screen freeze. |
 | WarCraft 2 | NTSC | ✅ |  |
 | X-Men Children of the Atom | NTSC | ❌ | Returns to bios music player after Capcom logo. |
 | X-Men vs. Street Fighter | NTSC | ❌ | Black screen freeze. |
